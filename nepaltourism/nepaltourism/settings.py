@@ -37,8 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'ckeditor',
     'accounts',
+=======
+    'tourism',
+>>>>>>> 4f367f5da60925f7fc011bf2675d40d31c85d36e
 ]
 
 MIDDLEWARE = [
@@ -120,3 +124,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

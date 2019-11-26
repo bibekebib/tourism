@@ -37,12 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'ckeditor',
     'accounts',
-=======
     'tourism',
->>>>>>> 4f367f5da60925f7fc011bf2675d40d31c85d36e
 ]
 
 MIDDLEWARE = [
